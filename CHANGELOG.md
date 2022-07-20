@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/cktf/terraform-hcloud-network/compare/1.2.1...1.2.2) (2022-07-20)
+
+
+### Bug Fixes
+
+* **CI/CD:** refactor CI scripts ([a7c576b](https://github.com/cktf/terraform-hcloud-network/commit/a7c576bd101cdc55e056c0aed22776b677a1f7fc))
+
 ## [1.2.1](https://github.com/cktf/terraform-hcloud-network/compare/1.2.0...1.2.1) (2022-07-20)
 
 
