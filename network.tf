@@ -4,10 +4,10 @@ resource "hcloud_network" "this" {
 }
 
 resource "hcloud_network_subnet" "this" {
-  for_each = { for idx, val in var.subnets : idx => val }
+  count = length(var.subnets)
 
   network_id   = hcloud_network.this.id
   network_zone = var.zone
-  ip_range     = each.value
+  ip_range     = var.subnets[count.index]
   type         = "cloud"
 }

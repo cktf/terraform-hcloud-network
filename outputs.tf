@@ -5,7 +5,7 @@ output "network_id" {
 }
 
 output "subnet_ids" {
-  value       = hcloud_network_subnet.this[*].id
+  value       = { for idx, val in var.subnets : val => hcloud_network_subnet.this[idx].id }
   sensitive   = true
   description = "Network Subnet IDs"
 }
