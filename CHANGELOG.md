@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/cktf/terraform-hcloud-network/compare/1.2.2...1.2.3) (2022-07-20)
+
+
+### Bug Fixes
+
+* change subnet_ids output value ([b4fc9c5](https://github.com/cktf/terraform-hcloud-network/commit/b4fc9c5b215d7d56a5ca70c2352c15d43b03884e))
+
 ## [1.2.2](https://github.com/cktf/terraform-hcloud-network/compare/1.2.1...1.2.2) (2022-07-20)
 
 
