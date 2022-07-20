@@ -20,8 +20,9 @@ terraform init
 module "network" {
   source = "cktf/network/hcloud"
 
-  name = "mynet"
-  subnets = [""]
+  name    = "mynet"
+  cidr    = "192.168.0.0/16"
+  subnets = ["192.168.1.0/24", "192.168.2.0/16"]
 }
 ```
 
