@@ -5,6 +5,13 @@ variable "name" {
   description = "Network Name"
 }
 
+variable "zone" {
+  type        = string
+  default     = "eu-central"
+  sensitive   = false
+  description = "Network Zone"
+}
+
 variable "cidr" {
   type        = string
   default     = ""
