@@ -34,7 +34,7 @@ variable "labels" {
 }
 
 variable "subnets" {
-  type = list(object({
+  type = map(object({
     type = string
     cidr = string
   }))
@@ -44,7 +44,7 @@ variable "subnets" {
 }
 
 variable "routes" {
-  type = list(object({
+  type = map(object({
     destination = string
     gateway     = string
   }))
