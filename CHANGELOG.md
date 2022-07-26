@@ -1,3 +1,15 @@
+# [1.3.0](https://github.com/cktf/terraform-hcloud-network/compare/1.2.3...1.3.0) (2022-07-26)
+
+
+### Bug Fixes
+
+* change type of subnets, routes ([f07bc4b](https://github.com/cktf/terraform-hcloud-network/commit/f07bc4b7875897a8060c8391e19591446c1568a8))
+
+
+### Features
+
+* add custom routes variable ([736cdde](https://github.com/cktf/terraform-hcloud-network/commit/736cdde76eadf6e607d5fa037c5abf7768d013ac))
+
 ## [1.2.3](https://github.com/cktf/terraform-hcloud-network/compare/1.2.2...1.2.3) (2022-07-20)
 
 
