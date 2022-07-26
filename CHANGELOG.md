@@ -1,3 +1,10 @@
+## [1.3.4](https://github.com/cktf/terraform-hcloud-network/compare/1.3.3...1.3.4) (2022-07-26)
+
+
+### Bug Fixes
+
+* add dependency to subnets creation for network_id output ([d0abc93](https://github.com/cktf/terraform-hcloud-network/commit/d0abc93f11f92b4f9705fadd35f52c0a3691e225))
+
 ## [1.3.3](https://github.com/cktf/terraform-hcloud-network/compare/1.3.2...1.3.3) (2022-07-26)
 
 
