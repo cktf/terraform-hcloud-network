@@ -1,4 +1,6 @@
 output "network_id" {
+  depends_on = [hcloud_network_subnet.this]
+
   value       = hcloud_network.this.id
   sensitive   = false
   description = "Network ID"
