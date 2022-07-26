@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/cktf/terraform-hcloud-network/compare/1.3.1...1.3.2) (2022-07-26)
+
+
+### Bug Fixes
+
+* change README example ([1308bd5](https://github.com/cktf/terraform-hcloud-network/commit/1308bd5e0dff0226cd99821bd89d575c9f120481))
+
 ## [1.3.1](https://github.com/cktf/terraform-hcloud-network/compare/1.3.0...1.3.1) (2022-07-26)
 
 
