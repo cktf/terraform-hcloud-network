@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/cktf/terraform-hcloud-network/compare/1.3.0...1.3.1) (2022-07-26)
+
+
+### Bug Fixes
+
+* change syntax of output for_each ([fdca9e3](https://github.com/cktf/terraform-hcloud-network/commit/fdca9e36551779146629554029aecf1b9b9f1a0c))
+
 # [1.3.0](https://github.com/cktf/terraform-hcloud-network/compare/1.2.3...1.3.0) (2022-07-26)
 
 
