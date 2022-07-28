@@ -1,3 +1,10 @@
+## [1.3.5](https://github.com/cktf/terraform-hcloud-network/compare/1.3.4...1.3.5) (2022-07-28)
+
+
+### Bug Fixes
+
+* force all endings to LF ([5fd397c](https://github.com/cktf/terraform-hcloud-network/commit/5fd397cd72b879733537ae2ad07b110933b3381a))
+
 ## [1.3.4](https://github.com/cktf/terraform-hcloud-network/compare/1.3.3...1.3.4) (2022-07-26)
 
 
