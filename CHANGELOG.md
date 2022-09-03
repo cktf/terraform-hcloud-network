@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/cktf/terraform-hcloud-network/compare/1.3.5...1.4.0) (2022-09-03)
+
+
+### Features
+
+* add linux support to terraform lock file ([42c3051](https://github.com/cktf/terraform-hcloud-network/commit/42c3051bb5ac9e490ca902b9b17c658d4c6047a3))
+
 ## [1.3.5](https://github.com/cktf/terraform-hcloud-network/compare/1.3.4...1.3.5) (2022-07-28)
 
 
