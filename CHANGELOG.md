@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/cktf/terraform-hcloud-network/compare/1.5.0...1.5.1) (2022-11-10)
+
+
+### Bug Fixes
+
+* change version constraints ([7294d76](https://github.com/cktf/terraform-hcloud-network/commit/7294d76b389616e48163337158ebb8b8f1274888))
+
 # [1.5.0](https://github.com/cktf/terraform-hcloud-network/compare/1.4.0...1.5.0) (2022-11-10)
 
 
