@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/cktf/terraform-hcloud-network/compare/1.4.0...1.5.0) (2022-11-10)
+
+
+### Features
+
+* upgrade dependencies ([8520142](https://github.com/cktf/terraform-hcloud-network/commit/8520142b4e663dc664c73590bf71d48114e3ab21))
+
 # [1.4.0](https://github.com/cktf/terraform-hcloud-network/compare/1.3.5...1.4.0) (2022-09-03)
 
 
