@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/cktf/terraform-hcloud-network/compare/1.5.1...1.6.0) (2023-12-15)
+
+
+### Features
+
+* upgrade terraform version ([181355e](https://github.com/cktf/terraform-hcloud-network/commit/181355eb993d3e361d0b3d66465992e010cd638d))
+
 ## [1.5.1](https://github.com/cktf/terraform-hcloud-network/compare/1.5.0...1.5.1) (2022-11-10)
 
 
