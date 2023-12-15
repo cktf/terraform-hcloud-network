@@ -19,18 +19,18 @@ variable "cidr" {
   description = "Network CIDR"
 }
 
-variable "protection" {
-  type        = bool
-  default     = false
-  sensitive   = false
-  description = "Network Protection"
-}
-
 variable "labels" {
   type        = map(string)
   default     = {}
   sensitive   = false
   description = "Network Labels"
+}
+
+variable "protection" {
+  type        = bool
+  default     = false
+  sensitive   = false
+  description = "Network Protection"
 }
 
 variable "subnets" {

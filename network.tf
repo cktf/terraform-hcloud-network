@@ -1,8 +1,8 @@
 resource "hcloud_network" "this" {
   name              = var.name
   ip_range          = var.cidr
-  delete_protection = var.protection
   labels            = var.labels
+  delete_protection = var.protection
 }
 
 resource "hcloud_network_subnet" "this" {
