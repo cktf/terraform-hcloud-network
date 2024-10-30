@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/cktf/terraform-hcloud-network/compare/1.6.0...1.7.0) (2024-10-30)
+
+
+### Features
+
+* upgrade CI/CD ([5d839e3](https://github.com/cktf/terraform-hcloud-network/commit/5d839e30468add8f91a08777605c68a26363e075))
+
 # [1.6.0](https://github.com/cktf/terraform-hcloud-network/compare/1.5.1...1.6.0) (2023-12-15)
 
 
