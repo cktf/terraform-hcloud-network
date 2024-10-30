@@ -33,10 +33,18 @@ variable "protection" {
   description = "Network Protection"
 }
 
+variable "expose_vswitch" {
+  type        = bool
+  default     = null
+  sensitive   = false
+  description = "Network Expose VSwitch"
+}
+
 variable "subnets" {
   type = map(object({
-    type = string
-    cidr = string
+    type    = string
+    cidr    = string
+    vswitch = optional(number)
   }))
   default     = {}
   sensitive   = false
