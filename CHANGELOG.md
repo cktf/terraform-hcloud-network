@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/cktf/terraform-hcloud-network/compare/1.7.0...1.8.0) (2024-10-30)
+
+
+### Features
+
+* add vswitch management ([7fe7188](https://github.com/cktf/terraform-hcloud-network/commit/7fe7188f803655ceeea4a6633592cde434bbad63))
+
 # [1.7.0](https://github.com/cktf/terraform-hcloud-network/compare/1.6.0...1.7.0) (2024-10-30)
 
 
