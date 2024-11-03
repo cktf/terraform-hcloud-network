@@ -1,3 +1,10 @@
+## [1.9.1](https://github.com/cktf/terraform-hcloud-network/compare/1.9.0...1.9.1) (2024-11-03)
+
+
+### Bug Fixes
+
+* add subnets depends_on to id output ([d74c262](https://github.com/cktf/terraform-hcloud-network/commit/d74c2620abedb3fdbba73ec4e48d41d7794b3d52))
+
 # [1.9.0](https://github.com/cktf/terraform-hcloud-network/compare/1.8.0...1.9.0) (2024-11-03)
 
 
