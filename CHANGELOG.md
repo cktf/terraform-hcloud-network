@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/cktf/terraform-hcloud-network/compare/1.8.0...1.9.0) (2024-11-03)
+
+
+### Features
+
+* change output values ([d0b1658](https://github.com/cktf/terraform-hcloud-network/commit/d0b16582ceafc33da046eda82cc07e430410c710))
+
 # [1.8.0](https://github.com/cktf/terraform-hcloud-network/compare/1.7.0...1.8.0) (2024-10-30)
 
 
