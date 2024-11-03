@@ -1,13 +1,11 @@
-output "network_id" {
-  depends_on = [hcloud_network_subnet.this]
-
+output "id" {
   value       = hcloud_network.this.id
   sensitive   = false
   description = "Network ID"
 }
 
-output "subnet_ids" {
+output "subnet" {
   value       = { for key, val in var.subnets : key => hcloud_network_subnet.this[key].id }
-  sensitive   = true
-  description = "Network Subnet IDs"
+  sensitive   = false
+  description = "Network Subnet"
 }
