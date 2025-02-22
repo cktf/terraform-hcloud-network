@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/cktf/terraform-hcloud-network/compare/1.9.1...1.10.0) (2025-02-22)
+
+
+### Features
+
+* add new CI ([8b81142](https://github.com/cktf/terraform-hcloud-network/commit/8b8114260cd656dc927ae0155b5b121765b9c9d4))
+
 ## [1.9.1](https://github.com/cktf/terraform-hcloud-network/compare/1.9.0...1.9.1) (2024-11-03)
 
 
