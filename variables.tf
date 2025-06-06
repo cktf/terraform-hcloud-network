@@ -60,3 +60,22 @@ variable "routes" {
   sensitive   = false
   description = "Network Routes"
 }
+
+variable "firewalls" {
+  type = map(object({
+    name    = optional(string)
+    labels  = optional(map(string), {})
+    targets = optional(map(string), {})
+    inbounds = optional(map(object({
+      description = string
+      source_ips  = list(string)
+    })), {})
+    outbounds = optional(map(object({
+      description     = string
+      destination_ips = list(string)
+    })), {})
+  }))
+  default     = {}
+  sensitive   = false
+  description = "Network Firewalls"
+}
