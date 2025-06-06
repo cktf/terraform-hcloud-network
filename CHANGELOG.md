@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/cktf/terraform-hcloud-network/compare/2.0.0...2.1.0) (2025-06-06)
+
+
+### Features
+
+* change firewall targets type to label selectors list ([34ad34f](https://github.com/cktf/terraform-hcloud-network/commit/34ad34f48568b61614ff061a797899387fa845a2))
+
 # [2.0.0](https://github.com/cktf/terraform-hcloud-network/compare/1.10.0...2.0.0) (2025-06-06)
 
 
