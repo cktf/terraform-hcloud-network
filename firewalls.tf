@@ -37,7 +37,7 @@ resource "hcloud_firewall" "this" {
   }
 
   dynamic "apply_to" {
-    for_each = each.value.targets
+    for_each = { for target in each.value.targets : target => target }
 
     content {
       label_selector = apply_to.value

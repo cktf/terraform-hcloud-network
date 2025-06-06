@@ -65,7 +65,7 @@ variable "firewalls" {
   type = map(object({
     name    = optional(string)
     labels  = optional(map(string), {})
-    targets = optional(map(string), {})
+    targets = optional(list(string), [])
     inbounds = optional(map(object({
       description = string
       source_ips  = list(string)

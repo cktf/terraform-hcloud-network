@@ -4,7 +4,7 @@
 ![release](https://img.shields.io/github/v/release/cktf/terraform-hcloud-network?display_name=tag)
 ![license](https://img.shields.io/github/license/cktf/terraform-hcloud-network)
 
-**Network** is a Terraform module useful for creating **Network** and **Subnets** on **HCloud**
+**Network** is a Terraform module useful for creating **Network**, **Subnets**, **Routes**, and **Firewalls** on **HCloud**
 
 ## Installation
 
@@ -30,6 +30,39 @@ module "network" {
     workers = {
       type = "server",
       cidr = "192.168.1.0/24"
+    }
+  }
+
+  firewalls = {
+    manager = {
+      targets = ["cluster/role=manager"]
+      inbounds = {
+        "80:tcp" = {
+          description = "HTTP Inbound Traffic"
+          source_ips  = ["0.0.0.0/0", "::/0"]
+        }
+        "443:tcp" = {
+          description = "HTTPS Inbound Traffic"
+          source_ips  = ["0.0.0.0/0", "::/0"]
+        }
+        "443:tcp" = {
+          description = "HTTPS Inbound Traffic"
+          source_ips  = ["0.0.0.0/0", "::/0"]
+        }
+      }
+    }
+    worker = {
+      targets = ["cluster/role=worker"]
+      inbounds = {
+        "80:tcp" = {
+          description = "HTTP Inbound Traffic"
+          source_ips  = ["0.0.0.0/0", "::/0"]
+        }
+        "443:tcp" = {
+          description = "HTTPS Inbound Traffic"
+          source_ips  = ["0.0.0.0/0", "::/0"]
+        }
+      }
     }
   }
 }
