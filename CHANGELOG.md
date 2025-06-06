@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/cktf/terraform-hcloud-network/compare/1.10.0...2.0.0) (2025-06-06)
+
+
+### Features
+
+* add firewall resource ([0eac86b](https://github.com/cktf/terraform-hcloud-network/commit/0eac86bf28a99c686d2ca0b88f26b8c738b42b6f))
+
+
+### BREAKING CHANGES
+
+* move firewall from cluster to network module
+
 # [1.10.0](https://github.com/cktf/terraform-hcloud-network/compare/1.9.1...1.10.0) (2025-02-22)
 
 
